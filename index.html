@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>online experience</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container" id="allBG">
+      <div class="content">
+        <h1 class="question">今天你的情緒是如何的?</h1>
+        <div class="emotion">
+          <div id="happyTxt" class="emotionTxt">喜</div>
+          <div id="angryTxt" class="emotionTxt">怒</div>
+          <div id="sadTxt" class="emotionTxt">哀</div>
+          <div id="scaredTxt" class="emotionTxt">懼</div>
+        </div>
+      </div>
+    </div>
+    <div class="videoBG" style="display: none" id="videoBG">
+      <video id="videoPlayer">
+        <source src="" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="videoBlackBG" id="videoBlackBG" style="display: none">
+      <div>重新選擇</div>
+      <div>回首頁</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
