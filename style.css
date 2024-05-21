@@ -19,6 +19,7 @@
 
 .question {
   margin-bottom: 50px;
+  line-height: 55px;
   letter-spacing: 12px;
 }
 
@@ -29,16 +30,16 @@
 }
 
 .emotionTxt {
-  border-radius: 50px;
-  width: 100px;
-  height: 100px;
+  /* border-radius: 50px; */
+  width: 150px;
+  height: 150px;
   background-image: url("./img/special2.png");
   background-size: cover;
   margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 26px;
   color: rgb(255, 255, 255);
   padding-top: 12px;
 }
@@ -81,6 +82,7 @@
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
+  text-align: center;
 }
 
 .videoBlackBG div:hover {
